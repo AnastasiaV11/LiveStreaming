@@ -23,6 +23,6 @@ USER = Client(
     Config.API_HASH,
     plugins=dict(root="userplugins")
     )
-group_call = PyTgCalls(USER, cache_duration=180)
+group_call = PyTgCalls(USER, cache_duration=800)
 
 
